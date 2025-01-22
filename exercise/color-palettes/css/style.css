@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#passion-blue-heading { 
+    font-family: lobster;
+    color: black;
+    text-align: center; 
+}
+#royal-blue-space {
+    background-color: #03256c;
+    color: white;
+    font-family: lobster;
+    text-align: center;
+    padding: 24px;
+}
+#persian-blue-heading { 
+    font-family: lobster;
+    color: black;
+    text-align: center; 
+}
+#persian-blue-space {
+    background-color: #2541B2;
+    color: white;
+    font-family: lobster;
+    text-align: center;
+    padding: 24px;
+}
+#green-blue-heading { 
+    font-family: lobster;
+    color: black;
+    text-align: center; 
+}
+#green-blue-space {
+    background-color: #1768AC;
+    color: white;
+    font-family: lobster;
+    text-align: center;
+    padding: 24px;
+}
+#aero-blue-heading { 
+    font-family: lobster;
+    color: black;
+    text-align: center; 
+}
+#aero-blue-space {
+    background-color: #06BEE1;
+    color: white;
+    font-family: lobster;
+    text-align: center;
+    padding: 24px;
+}
