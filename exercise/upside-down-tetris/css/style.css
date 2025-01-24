@@ -11,8 +11,10 @@
     border-width: 5px;
     border-style: solid;
     display: inline-block;
-    background-color: red;
-    border-color: lightcoral;
+    background-color: lightcoral;
+    border-color: red;
+    border-radius: 20px 0px;
+    border: 8px ridge red;
 }
 
 .tetris-block-orange {
@@ -20,8 +22,10 @@
     border-width: 5px;
     border-style: solid;
     display: inline-block;
-    background-color: orange;
-    border-color: rgb(241, 194, 107);
+    background-color: rgb(241, 194, 107);
+    border-color: orange;
+    border-radius: 0px 20px;
+    border: 8px ridge orange;
 }
 
 .tetris-block-yellow {
@@ -29,6 +33,42 @@
     border-width: 5px;
     border-style: solid;
     display: inline-block;
-    background-color: yellow;
-    border-color: lightyellow;
+    background-color: lightyellow;
+    border-color: yellow;
+    border-radius: 15px 15px;
+    border: 8px ridge yellow;
 }
+
+.tetris-block-green {
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+    background-color: lightgreen;
+    border-color: green;
+    border-radius: 25px 25px;
+    border: 8px ridge green;
+}
+
+.tetris-block-blue {
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+    background-color: lightblue;
+    border-color: blue;
+    border-radius: 10px 15px 25px;
+    border: 8px ridge blue;
+}
+
+.tetris-block-purple {
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+    background-color: magenta;
+    border-color: purple;
+    border-radius: 10px 25px 25px;
+    border: 8px ridge purple;
+}
+
