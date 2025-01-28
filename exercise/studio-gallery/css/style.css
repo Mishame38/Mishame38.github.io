@@ -1,0 +1,55 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.first-image {
+    width: 84px;
+    display: block;
+}
+.first-outer-frame {
+    border: solid 5px black;
+    margin: 40px;
+}
+.first-inner-frame {
+    border: solid 3px gray;
+}
+
+.second-image {
+    width: 85px;
+    height: 80px;
+    display: block;
+    border-radius: 50px;
+}
+.second-outer-frame {
+    border: solid 5px black;
+    margin: 35px;
+    border-radius: 50px;
+    width: 90px;
+}
+.second-inner-frame {
+    border: solid 3px gray;
+    border-radius: 50px;
+    width: 85px;
+}
+
+.thrid-image {
+    width: 84px;
+    display: block;   
+}
+.thrid-outer-frame {
+    border: solid 5px black;
+    margin: 40px;
+}
+.thrid-inner-frame {
+    border: solid 3px gray;
+    
+}
+
+.featured-text-outer-frame {
+    border: solid 3px black;
+    display: inline-block;
+}
