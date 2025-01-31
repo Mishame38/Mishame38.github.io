@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#two-columns {
+    display: flex;
+}
+#sidebar-content h2 {
+    border-bottom: 2px solid darkcyan;
+}
+#sidebar-content {
+    border-right: 2px solid darkcyan;
+    flex: 1;
+    width: 300px;
+    padding: 24px;
+    background-color: cyan;
+}
+#sidebar-content ul {
+    list-style: none;
+    padding: 0px;
+}
+#sidebar-content ul li {
+    padding: 2px;
+    text-align: center;
+}
+
+#main-content,h1,h2,h3 {
+    border-bottom: 1px solid cyan;
+}
+#main-content {
+    padding: 24px;
+    background-color: darkcyan;
+}
+
