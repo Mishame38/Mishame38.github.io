@@ -28,7 +28,10 @@ body {
     text-align: center;
 }
 
-#main-content,h1,h2,h3 {
+#main-content, 
+h1, 
+h2,
+h3 {
     border-bottom: 1px solid cyan;
 }
 #main-content {
