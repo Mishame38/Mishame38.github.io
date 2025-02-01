@@ -19,15 +19,15 @@ body {
 #sidebar-content h2 {
     background-color: tan;
     padding: 12px;
-    margin: 0px;
     color: #5a3838;
     font-size: 18px;
+    margin: 0px;
 }
 #sidebar-content ul {
+    list-style-type: none;
     background-color: #98948e;
     border: 1px solid tan;
     margin: 0px 0px 36px;
-    list-style-type: none;
     padding: 0px 12px;
 }
 #sidebar-content a {
@@ -35,8 +35,8 @@ body {
     text-decoration: none;
 }
 #sidebar-content li {
-    border-bottom: 1px solid tan;
     padding: 8px 0px;
+    border-bottom: 1px solid tan;
 }
 #sidebar-content li:last-child {
     border-bottom: 0px;
@@ -44,8 +44,8 @@ body {
 #main-content {
     grid-area: content;
     margin: 0px 36px;
-    background-color: #98948e;
     padding: 40px;
+    background-color: #98948e;
 }
 #main-content h1, h3 {
     border-bottom: 2px solid  #5a3838;
