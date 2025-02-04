@@ -21,7 +21,7 @@ body {
     grid-area: sidebar;
     padding: 0px 36px;
     background-color: #750db2;
-}    
+}
 
 #main {
      grid-area: main;
