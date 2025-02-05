@@ -24,10 +24,10 @@ body {
 }
 
 #main {
-     grid-area: main;
-     display: flex;   
-     flex-wrap: wrap;
-     background-color: #2e2ef6;
+    grid-area: main;
+    display: flex;   
+    flex-wrap: wrap;
+    background-color: #2e2ef6;
 }
        
 #header a {
