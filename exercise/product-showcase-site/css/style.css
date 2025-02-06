@@ -11,7 +11,10 @@ body {
     text-align: center;
     border: 8px ridge slategray;
     color: black;
+    margin-left: 0px;
+    margin-right: auto;
 }
+
 .container-1 img {
     width: 150px;
     border: 5px ridge slategrey;
