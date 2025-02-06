@@ -35,12 +35,12 @@ body {
 }   
 
 #header #me {
-    color: black;
+    color: #2e2ef6;
 }
     
 #header #tube {
-    color: goldenrod; 
-    background-color: black;
+    color: black; 
+    background-color: #750db2;
     padding: 4px; 
     border-radius: 12px;
     border-width: 5px;
@@ -72,16 +72,15 @@ body {
     margin-right: 12px; 
     margin-bottom: 24px;
 }
-.metube-item .thumbnail-placeholder {
+.metube-item .thumbnail img {
     aspect-ratio: 16/9;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
+    width: 100%;
 }
 .thumbnail-style {
     border-radius: 8px; 
-    height: 100%; 
-    width: 100%;
+    height: 90%; 
+    width: 90%;
 }
 .metube-item h4 {
     margin: 8px;
