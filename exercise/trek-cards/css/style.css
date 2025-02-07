@@ -49,13 +49,13 @@
     border: 3px solid green;
 }
     
- .card-style-1 p {
-    background-color: white;
+.card-style-1 p {
+    background-color: #EDFEEE;
     margin: 0px;
     padding: 25px;
- }
+}
 
- .card-style-1 a:hover {
+.card-style-1 a:hover {
     background-color: transparent;
     color: black;
 }
