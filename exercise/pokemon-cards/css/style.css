@@ -40,8 +40,8 @@
     text-align: center;
     background:
         linear-gradient(
-            50deg
-            goldenrod 
+            50deg,
+            goldenrod, 
             lightgoldenrodyellow
     ) 
     font-weight: bold; 
@@ -66,8 +66,10 @@
 
 .data {
     border: 1px solid goldenrod;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .pokemon-header {
@@ -82,7 +84,7 @@
 }
 
 .description {
-    font-size: 15px;
+    font-size: 20px;
     padding: 20px;
 }
 
