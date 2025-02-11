@@ -1,0 +1,137 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 {  
+    background-color: #EDEDED;
+    border: 16px solid gold;
+    border-radius: 12px;
+    padding: 16px;
+    width: 350px;
+    margin: 18px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.card-style-3 img {
+    width: 100%;
+    border: 5px solid goldenrod;
+}
+
+.card-style-3 .pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.card-style-3 h2 {
+    margin: 0px;
+}
+
+.card-style-3 details {
+    font-size: 12px; 
+    text-align: center;
+    background:
+        linear-gradient(
+            50deg
+            goldenrod 
+            lightgoldenrodyellow
+    ) 
+    font-weight: bold; 
+    font-style: italic; 
+    margin-top: 4px;
+}
+
+.card-style-3 .attack {
+    flex: 1;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0px;
+    padding: 8px 0px 16px; 
+    border-bottom: 2px solid black;
+}
+
+.card-style-3 .attack .description {
+    margin: 0px 4px;
+    font-size: 14px;
+}
+
+.data {
+    border: 1px solid goldenrod;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pokemon-header {
+    justify-content: space-between;
+    display: flex;
+}
+
+.details {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 15px;
+    padding: 20px;
+}
+
+.card-style-3 .bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-style-3 .power {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#pokemon-card-1 {
+    background: 
+        linear-gradient(
+        50deg,
+        green,
+        lightgreen,
+        green
+    )
+}
+
+#pokemon-card-2 {
+    background: 
+    linear-gradient(
+    50deg,
+    lightgreen,
+    green,
+    lightgreen
+)
+} 
+
+#pokemon-card-3 {
+    background: 
+        linear-gradient(
+        50deg,
+        orange,
+        orangered,
+        orange
+    )
+}    
+
+#pokemon-card-4 {
+    background: 
+        linear-gradient(
+        50deg,
+        aqua,
+        rgb(141, 188, 243),
+        aqua
+    )
+}
