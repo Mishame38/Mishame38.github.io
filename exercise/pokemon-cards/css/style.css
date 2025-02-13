@@ -41,12 +41,12 @@
     background:
         linear-gradient(
             50deg,
-            goldenrod, 
-            lightgoldenrodyellow
-    ) 
-    font-weight: bold; 
-    font-style: italic; 
-    margin-top: 4px;
+        goldenrod, 
+        lightgoldenrodyellow
+        ); 
+        font-weight: bold; 
+        font-style: italic; 
+        margin-top: 4px;
 }
 
 .card-style-3 .attack {
@@ -101,39 +101,39 @@
 #pokemon-card-1 {
     background: 
         linear-gradient(
-        50deg,
+            50deg,
         green,
         lightgreen,
         green
-    )
+        );
 }
 
 #pokemon-card-2 {
     background: 
-    linear-gradient(
-    50deg,
-    lightgreen,
-    green,
-    lightgreen
-)
+        inear-gradient(
+            50deg,
+        lightgreen,
+        green,
+        lightgreen
+        );
 } 
 
 #pokemon-card-3 {
     background: 
         linear-gradient(
-        50deg,
+            50deg,
         orange,
         orangered,
         orange
-    )
+        );
 }    
 
 #pokemon-card-4 {
     background: 
         linear-gradient(
-        50deg,
+            50deg,
         aqua,
         rgb(141, 188, 243),
         aqua
-    )
+        );
 }
