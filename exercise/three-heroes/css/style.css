@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-position: center center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     position: relative;
     margin-bottom: 100px;
@@ -22,21 +22,29 @@ body {
 #hero-1 h1 {
     font-size: 120px;
     position: absolute;
-    left: 20%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    right: 20%;
+    bottom: 50%;
+    text-align: center;
+    width: 750px;
 }
 
 #hero-1 a {
     font-size: 50px;
-    left: 50%;
     position: absolute;
     bottom: 150px;
-    border: 2px solid black;
     border-radius: 10px;
     background-color: aqua;
     color: black;
     text-decoration: none;
     font-weight: bold;
-    padding: 5px;
+    right: 20%;
+    bottom: 47%;
+    text-align: center;
+    width: 250px;
+    display: block;
 }
 
 #hero-2 {
@@ -45,30 +53,26 @@ body {
     background-size: cover;
     background-position: center center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     position: relative;
     margin-bottom: 100px;
 }
 
 #hero-2 h2 {
-    font-size: 120px;
-    position: absolute;
-    left: 20%;
-}
-
-#hero-2 h4 {
     font-size: 50px;
     position: absolute;
-    left: 50%;
+    right: 20%;
+    bottom: 50%;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 #hero-2 a {
     font-size: 25px;
-    left: 50%;
     position: absolute;
     bottom: 150px;
-    border: 2px solid black;
     border-radius: 10px;
     background-color: aqua;
     color: black;
@@ -76,6 +80,10 @@ body {
     font-weight: bold;
     padding: 5px;
     text-align: center;
+    width: 250px;
+    display: block;
+    right: 20%;
+    bottom: 47%;
 }
 
 #hero-3 {
@@ -84,7 +92,7 @@ body {
     background-size: cover;
     background-position: center center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     position: relative;
     margin-bottom: 100px;
@@ -98,10 +106,8 @@ body {
 
 #hero-3 a {
     font-size: 25px;
-    left: 50%;
     position: absolute;
     bottom: 150px;
-    border: 2px solid black;
     border-radius: 10px;
     background-color: aqua;
     color: black;
@@ -109,4 +115,8 @@ body {
     font-weight: bold;
     padding: 5px;
     text-align: center;
+    width: 250px;
+    display: block;
+    right: 20%;
+    bottom: 45%;
 }
