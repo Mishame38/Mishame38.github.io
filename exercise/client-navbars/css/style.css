@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #C5D86D,#306B34);
+    display: flex;
+    align-items: center;
+}
+   
+#navbar a {
+    text-decoration: none;
+    color: #302222;
+    padding: 24px;
+    font-size: 25px;
+
+}
+   
+#navbar h1 {
+    margin-right: auto;
+    width: 150px;
+    font-size: 50px;
+    padding-left: 25px;
+}
+
+#navbar img {
+    width: 100px;
+}
+
+
+#navbar-2 {
+    background: linear-gradient(to bottom, #FFB563,#F85E00);
+    display: flex;
+    align-items: center;
+}
+   
+#navbar-2 a {
+    text-decoration: none;
+    color: #A41623;
+    padding: 24px;
+    font-size: 15px;
+
+}
+   
+#navbar-2 h1 {
+    margin-right: auto;
+    width: 150px;
+    font-size: 30px;
+    padding-left: 25px;
+    color: #A41623;
+}
+
+#navbar-2 .cta-button {
+    background-color: #FFD29D;
+    color: #A41623; 
+    border-radius: 36px;
+    padding: 12px 20px; 
+    font-size: 20px;
+    font-weight: bold; 
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}    
