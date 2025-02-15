@@ -1,14 +1,45 @@
 /* Drill 6 - Write your code solution below */
 
+#container-6 {
+    justify-content: space-between;
+    display: flex;
+}
 
 /* Drill 7 - Write your code solution below */
 
+#container-7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 /* Drill 8 - Write your code solution below */
 
+#container-8 {
+    display: flex;
+}
+
+#container-8 .box {
+    flex: 1;
+}
 
 /* Drill 9 - Write your code solution below */
 
+#container-9 {
+    display: flex;
+}
+
+#container-9 #c9-box2 {
+    flex: 1;
+}
 
 /* Drill 10 - Write your code solution below */
+
+#container-10 {
+    display: flex;
+}
+
+#container-10 #c10-box1 {
+    flex: 1;
+}
 
