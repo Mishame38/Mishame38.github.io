@@ -70,11 +70,10 @@ body {
     width: 800px;
     margin: 0px auto;
     text-align: center;
-
 }
    
 #navbar-3-top {
-    background: #7f0a7f;
+    background: #670dab;
 }
    
 #navbar-3-top .content-1 {
@@ -83,15 +82,16 @@ body {
     align-items: center;
 } 
 
-#navbar-3-top .content-1 h1 {
+#navbar-3-top .content-1 a {
     color: white;
-    font-size: 25px;
+    font-size: 28px;
     margin: 0px auto;
     text-align: center;
+    padding: 10px;
 }
 
 #navbar-3-middle {
-    background: linear-gradient(to bottom, orangered, yellow);
+    background: linear-gradient(to bottom, #670dab, black);
     display: flex;
     align-items: center;
 }
@@ -100,12 +100,12 @@ body {
     margin-right: auto;
     width: 150px;
     font-size: 50px;
-    padding-left: 25px;
+    padding-right: 100px;
 }
 
 #navbar-3-middle a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 0px 25px;
     justify-content: space-between;
 }
@@ -133,7 +133,7 @@ body {
 }
    
 #navbar-3-bottom {
-    background: #7f0a7f;
+    background: black;
 }
    
 #navbar-3-bottom .content-3 {
