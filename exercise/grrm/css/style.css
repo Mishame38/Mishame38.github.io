@@ -446,13 +446,13 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         display: grid;
         grid-template-areas: 
-        "header header header"
-        "navbar navbar navbar"
-        "banner banner banner"
-        "card-1 card-2 card-3"
-        "aside blog blog"
-        "footer footer footer"
-        "bottom bottom bottom"
+            "header header header"
+            "navbar navbar navbar"
+            "banner banner banner"
+            "card-1 card-2 card-3"
+            "aside blog blog"
+            "footer footer footer"
+            "bottom bottom bottom"
     }
     #nav {
         display: flex;
@@ -472,20 +472,20 @@ body {
         grid-template-columns: 1fr;
         display: grid;
         grid-template-areas:
-        "header"
-        "navbar"
-        "banner"
-        "card-1"
-        "card-2"
-        "card-3"
-        "aside"
-        "blog"
-        "footer"
-        "bottom"
+            "header"
+            "navbar"
+            "banner"
+            "card-1"
+            "card-2"
+            "card-3"
+            "aside"
+            "blog"
+            "footer"
+            "bottom";
     }
     #nav a {
-      flex: 150px;
-      border-bottom: 2px solid gray;
+        flex: 150px;
+        border-bottom: 2px solid gray;
     }
     #shield-image {
         display: none;
