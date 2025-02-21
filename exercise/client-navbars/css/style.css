@@ -31,7 +31,6 @@ body {
     width: 100px;
 }
 
-
 #navbar-2 {
     background: linear-gradient(to bottom, #FFB563,#F85E00);
     display: flex;
@@ -65,7 +64,6 @@ body {
     margin-right: 24px;
 }    
 
-
 .content-1 {
     width: 800px;
     margin: 0px auto;
@@ -88,12 +86,14 @@ body {
     margin: 0px auto;
     text-align: center;
     padding: 10px;
+    text-decoration: none;
 }
 
 #navbar-3-middle {
     background: linear-gradient(to bottom, #670dab, black);
     display: flex;
     align-items: center;
+    margin: auto;
 }
 
 #navbar3-middle h1 {
@@ -104,6 +104,7 @@ body {
 }
 
 #navbar-3-middle a {
+    margin: auto;
     text-decoration: none;
     color: white;
     padding: 0px 25px;
@@ -111,6 +112,7 @@ body {
 }
 
 #navbar-3-middle .cta-buttom {
+    margin: auto;
     background-color: white;
     color: black;
     border-radius: 36px;
@@ -119,17 +121,18 @@ body {
     font-weight: bold;
     min-width: 150px;
     text-align: center;
-    margin-left: px;
 }
 
 #navbar-3-middle .content-2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 } 
 
 #navbar-3-middle img {
     width: 100px;
+    margin: auto;
 }
    
 #navbar-3-bottom {
@@ -139,6 +142,7 @@ body {
 #navbar-3-bottom .content-3 {
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
    
 #navbar-3-bottom a {
@@ -147,4 +151,5 @@ body {
     padding: 12px 0px;
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
