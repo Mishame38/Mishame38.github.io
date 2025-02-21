@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+.card a {
+    text-decoration: none;
+    color: black; 
+    display: block;
+    border: 3px solid black;
+    padding: 12px; 
+    margin-top: 36px;
+}
+
+#gallery-card-container-1 {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: flex-start;
+}
+#card1:hover {
+    background-color: red;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-10px);
+}
+#card1 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#card2:hover {
+    background-color: orange;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-10px);
+}
+#card2 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#card3:hover {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-10px);
+}
+#card3 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#card4:hover {
+    background-color: green;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-10px);
+}
+#card4 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#gallery-card-container-2 {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: flex-start;
+}
+
+#card1-2 {
+    transition:
+        background-color 0.5s, 
+        box-shadow 0.5s, 
+        transform 0.5s;
+}
+#card1-2  {
+    background-image: url(../images/cupcakes-2209474_1280.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#card2-2 {
+    transition:
+        background-color 0.5s, 
+        box-shadow 0.5s, 
+        transform 0.5s;
+}
+#card2-2  {
+    background-image: url(../images/cake-3669245_1280.jpg);
+    height: 25vh;
+    background-size: fill;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+#card3-2 {
+    transition:
+        background-color 0.5s, 
+        box-shadow 0.5s, 
+        transform 0.5s;
+}
+#card3-2  {
+    background-image: url(../images/cake-6591719_1280.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+#card4-2 {
+    transition:
+        background-color 0.5s, 
+        box-shadow 0.5s, 
+        transform 0.5s;
+}
+#card4-2  {
+    background-image: url(../images/childrens-birthday-1543897_1280.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+#card1-2:hover a {
+    background-color: #dc5deb;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#card2-2:hover a {
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#card3-2:hover a {
+    background-color: pink;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#card4-2:hover a {
+    background-color: #f4f47d;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#gallery-card-container-3 {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: flex-start;
+}
+#card1-3  {
+    background-image: url(../images/guitar-2886886_1280.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+#card1-3 .card-content { 
+    transition:
+        opacity 0.5s;
+}
+#card1-3:hover .card-content {
+    opacity: 0;
+}
+#card2-3  {
+    background-image: url(../images/headsets-1971383_1280.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+#card2-3 .card-content { 
+    transition:
+        opacity 0.5s;
+}
+#card2-3:hover .card-content {
+    opacity: 0;
+}
+#card3-3  {
+    background-image: url(../images/music-1106439_1280.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+#card3-3 .card-content { 
+    transition:
+        opacity 0.5s;
+}
+#card3-3:hover .card-content {
+    opacity: 0;
+}
+#card4-3  {
+    background-image: url(../images/music-2902891_1280.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+#card4-3 .card-content { 
+    transition:
+        opacity 0.5s;
+}
+#card4-3:hover .card-content {
+    opacity: 0;
+}
