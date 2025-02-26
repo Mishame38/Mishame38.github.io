@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: lobster;
+}
+
+#hero {
+    background-image: url(../images/colorful-restaruant.png);
+    height: 150vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #FCC60E,#F16323);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar img {
+    width: 150px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#footer {
+    background: linear-gradient(to bottom, #FCC60E,#F16323);
+    padding: 25px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    font-size: 20px;
+}
