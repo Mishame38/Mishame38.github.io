@@ -51,7 +51,9 @@ h3 {
         linear-gradient(
             250deg,
         #F16323,
+        white,
         #3CBDC6,
+        white,
         #FCC60E
         );
 }
@@ -68,7 +70,7 @@ h3 {
 }
 
 .featured-dish img {
-    max-width: 300px;
+    max-width: 500px;
     margin-right: 20px;
     justify-content: center;
 }

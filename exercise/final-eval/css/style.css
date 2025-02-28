@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif; 
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #f4f4f4; 
+}
+
+.container {
+text-align: center; 
+padding: 20px;
+background: linear-gradient(to bottom, red,white, blue); 
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+max-width: 800px; 
+margin: 0 auto; 
+border: 3px solid white;
+}
+
+h1, h2, h3 {
+margin-bottom: 10px;
+}
+
+.buttons {
+margin-top: 20px;
+}
+
+.rsvp-button {
+padding: 10px 20px;
+margin: 0 10px; 
+background-color: black; 
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.rsvp-button:hover {
+background-color: gray; 
+}
+
+.image-container {
+    display: flex;
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image-container h1 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+
+.main-image {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.secondary-image {
+    max-width: 150px;
+    height: auto;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 95%; /* Adjust container width for smaller screens */
+        padding: 10px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    p {
+        font-size: 15px;
+
+    }
+  .buttons {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    align-items: center;
+  }
+  .rsvp-button {
+    margin: 5px 0; /* Adjust button margins for vertical stacking */
+  }
+  .image-container {
+    display: column;
+    margin-left: 50px;
+    margin: 50px;
+  }
+}
