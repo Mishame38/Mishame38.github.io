@@ -26,9 +26,7 @@ body {
 }
 
 #navbar img {
-    width: 150px;
-    margin-left: 50px;
-    padding: 10px;
+    width: 200px;  
 }
 
 #navbar a {
@@ -41,6 +39,7 @@ body {
 h1, h2 {
     text-align: center;
     align-items: center;
+    font-size: 45px;
 }
 h3 {
     text-align: center;
@@ -71,20 +70,32 @@ h3 {
 
 .featured-dish img {
     max-width: 500px;
-    margin-right: 20px;
+    margin-right: 100px;
     justify-content: center;
+    margin-left: 100px;
 }
 
 .menu-item {
     margin-bottom: 15px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .menu-item img {
-    max-width: 100px;
+    width: 200px;
     margin-bottom: 5px;
-    margin-left: 400px;
+    margin-left: 50px;
+
+}
+
+.menu-item .image-container {
+    flex: 1;
+}
+
+.menu-item .text-container {
+    flex: 1;
 }
 
 .menu-item p {
