@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.post-it-yellow {
+    background-color: yellow;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 24px;
+    padding: 24px;
+    font-family: sans-serif;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+  
+.post-it-pink {
+    background-color: lightpink;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 24px;
+    padding: 15px;
+    font-family: sans-serif;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+}
+  
+.post-it-blue {
+    background-color: lightblue;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 24px;
+    padding: 1px;
+    font-family: sans-serif;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    padding-left: 35px;
+}
+  
+.post-it-green {
+    background-color: lightgreen;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 24px;
+    padding: 7px;
+    font-family: sans-serif;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+}
+  
+#bulletin-board {
+    background-image: url("../images/frame.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 115px;
+}
