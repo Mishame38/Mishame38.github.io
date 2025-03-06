@@ -111,6 +111,7 @@ body {
 #hero-2 h3 {
     font-size: 25px;
     color: white;
+    text-align: center;
 }
 
 
@@ -140,6 +141,7 @@ body {
 
 .menu-item .text-container {
     flex: 1;
+    font-size: 15px;
 }
 
 .menu-item p {
@@ -151,7 +153,6 @@ body {
 .price {
     font-weight: bold;
 }
-
 
 .card-1 {
     flex: 1;
@@ -177,7 +178,6 @@ body {
     margin: 36px;
 }
 
-
 .card-4 {
     flex: 1;
     border: 3px solid white;
@@ -185,8 +185,6 @@ body {
     text-align: center;
     margin: 36px;
 }
-
-
 
 #footer {
     background: linear-gradient(to bottom, #FCC60E,#F16323);
