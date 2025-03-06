@@ -31,6 +31,17 @@ body {
     margin-right: 25px;
 }
 
+#hero {
+    background: url("../images/colorful-restaruant.png");
+    height: 150vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 #hero .hero-content {
     position: absolute;
     top: 10%;
