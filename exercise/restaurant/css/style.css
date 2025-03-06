@@ -7,26 +7,21 @@ body {
     font-family: lobster;
 }
 
-#hero {
-    background-image: url(../images/colorful-restaruant.png);
-    height: 150vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
 #navbar {
     background: linear-gradient(to bottom, #FCC60E,#F16323);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+#navbar .logo {
+    margin-right: auto;
 }
 
 #navbar img {
-    width: 200px;  
+    width: 150px;
+    margin-bottom: 10px; 
+    margin-left: 10px; 
 }
 
 #navbar a {
@@ -36,13 +31,52 @@ body {
     margin-right: 25px;
 }
 
-h1, h2 {
+#hero .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero h1 {
+    font-size: 100px;
+    color: #FCC60E;
+    text-shadow: 4px 4px black;
+}
+
+#hero h3 {
+    font-size: 35px;
+    color: #FCC60E;
+    font-family: sans-serif;
+    text-shadow: 4px 4px black;
+}                                                                                                                                                                                                                              
+
+.cta-button {
+    background-color: #3CBDC6;
+    color: #FCC60E;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    justify-content: center;
+    text-shadow: 2px 2px black;
+    box-shadow: 2px 2px 5px black;
+}
+
+#main-container h1 {
     text-align: center;
     align-items: center;
     font-size: 45px;
 }
-h3 {
+
+#main-container h2 {
     text-align: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+
+#main-container h3 {
+    text-align: center;
+    margin-left: 100px;
 }
 
 #main-container {
@@ -57,37 +91,47 @@ h3 {
         );
 }
 
-.featured-dish {
+#hero-2 {
+    background-image: url("../images/coconut-lime-shrimp-bowls.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero-2 p {
+    font-family: sans-serif; 
+    text-align: center;
+    color: white;
+}
+
+#hero-2 h3 {
+    font-size: 25px;
+    color: white;
+}
+
+
+.featured-dish {
     margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 50px;
     align-items: center;
 }
-.featured-dish p {
-    font-family: sans-serif; 
-}
-
-.featured-dish img {
-    max-width: 500px;
-    margin-right: 100px;
-    justify-content: center;
-    margin-left: 100px;
-}
 
 .menu-item {
     margin-bottom: 15px;
-    border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     display: flex;
     align-items: center;
 }
 
 .menu-item img {
-    width: 200px;
+   max-width: 150px;
     margin-bottom: 5px;
     margin-left: 50px;
-
 }
 
 .menu-item .image-container {
@@ -101,11 +145,57 @@ h3 {
 .menu-item p {
     clear: both;
     font-family: sans-serif;
-    text-align: center;
+    align-items: center;
 }
 
 .price {
     font-weight: bold;
+}
+
+
+.card-1 {
+    flex: 1;
+    border: 3px solid white;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+ 
+.card-3 {
+    flex: 1;
+    border: 3px solid white;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card-2 {
+    flex: 1;
+    border: 3px solid white;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+
+.card-4 {
+    flex: 1;
+    border: 3px solid white;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+
+
+#footer {
+    background: linear-gradient(to bottom, #FCC60E,#F16323);
+    padding: 25px;
+}
+
+#footer p {
+    font-size: 25px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -119,21 +209,3 @@ h3 {
     }
 }
 
-#footer {
-    background: linear-gradient(to bottom, #FCC60E,#F16323);
-    padding: 25px;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-}
-
-#footer a {
-    text-decoration: none;
-    color: black;
-    justify-content: space-between;
-    font-size: 20px;
-}
-
-#footer p {
-    font-size: 25px;
-}
